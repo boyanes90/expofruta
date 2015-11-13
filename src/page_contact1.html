@@ -75,18 +75,31 @@
                     </div>
 
                     <div class="col-md-6">
-                        <ul class="list-inline top-v1-data">
-                            <li><a href="https://www.facebook.com/expofrutaS.A?fref=ts" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://plus.google.com/105851557350824273001/photos" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/expofruta-s-a-" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="" class="country"><i class="flag-icon flag-icon-es"></i></a></li>
-                            <li><a href="" class="country"><i class="flag-icon flag-icon-us"></i></a></li>
+                        <ul class="social-icons top-v1-data">
+                            <li style="padding-left: 4px; padding-right: 4px; padding-bottom: 0px; margin-bottom: 0px; padding-top: 3px; margin-right: 0px"><a href="https://www.facebook.com/expofrutaS.A?fref=ts" target="_blank" class="social_facebook"
+                                                                                                                                                               data-original-title="Facebook"></a></li>
+                            <li style="padding-left: 4px; padding-right: 4px; padding-bottom: 0px; margin-bottom: 0px; padding-top: 3px; margin-right: 0px"><a href="https://plus.google.com/105851557350824273001/photos" target="_blank"
+                                                                                                                                                               class="social_googleplus" data-original-title="Google Plus"></a></li>
+                            <li style="padding-left: 4px; padding-right: 4px; padding-bottom: 0px; padding-top: 3px; margin-bottom: 0px; margin-right: 0px"><a href="https://www.linkedin.com/company/expofruta-s-a-" target="_blank"
+                                                                                                                                                               class="social_linkedin" data-original-title="Linkedin"></a></li>
+                            <!--<li><a href="" class="country"><i class="flag-icon flag-icon-es"></i></a></li>
+                            <li><a href="" class="country"><i class="flag-icon flag-icon-us"></i></a></li>-->
+                            <!--<li style="padding-left: 4px; padding-right: 4px; padding-bottom: 0px; padding-top: 3px; margin-bottom: 0px; margin-right: 0px">
+                                <a>
+                                    <i class="fa fa-globe"></i>
+                                    <a>Languages</a>
+                                    &lt;!&ndash;<li class="active">
+                                        <a href="#">English <i class="fa fa-coun"></i></a>
+                                    </li>
+                                    <li><a href="#">Spanish</a></li>&ndash;&gt;
+                                </a>
+                            </li>-->
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Topbar -->
+        <!-- End Topbar-->
 
         <!-- Navbar -->
         <div class="navbar navbar-default mega-menu" role="navigation">
@@ -166,19 +179,6 @@
     </div>
     <!--=== End Header v1 ===-->
 
-    <!--=== Breadcrumbs ===-->
-    <div class="breadcrumbs">
-        <div class="container">
-            <h1 class="pull-left">Contact us</h1>
-            <ul class="pull-right breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Pages</a></li>
-                <li class="active">Contacts</li>
-            </ul>
-        </div>
-    </div><!--/breadcrumbs-->
-    <!--=== End Breadcrumbs ===-->
-
     <!-- Google Map -->
     <div id="map" class="map">
     </div><!---/map-->
@@ -186,12 +186,12 @@
 
     <!--=== Content Part ===-->
     <div class="container content">
-    	<div class="row margin-bottom-30">
-    		<div class="col-md-9 mb-margin-bottom-30">
+        <div class="row margin-bottom-30">
+            <div class="col-md-9 mb-margin-bottom-30">
                 <div class="headline"><h2>Contact Form</h2></div>
                 <p style="font-size: 15px">We are very grateful that you have contacted us. If you have any questions our doubts concerning the information given in our web site or about our products, please feel free to contact us.</p><br />
 
-    			<form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style">
+                <form action="assets/php/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style">
                     <fieldset class="no-padding">
                         <label>Name <span class="color-red">*</span></label>
                         <div class="row sky-space-20">
@@ -229,7 +229,7 @@
                             </div>
                         </div>
 
-                        <p><button type="submit" class="btn-u">Send Message</button></p>
+                        <p><button type="submit" name="submit" id="submit" class="btn-u">Send Message</button></p>
                     </fieldset>
 
                     <div class="message">
@@ -239,8 +239,8 @@
                 </form>
             </div><!--/col-md-9-->
 
-    		<div class="col-md-3">
-            	<!-- Contacts -->
+            <div class="col-md-3">
+                <!-- Contacts -->
                 <div class="headline"><h2>Contacts</h2></div>
                 <ul class="list-unstyled who margin-bottom-30">
                     <li><a><i class="fa fa-home"></i>Rio Nance, Km 15, Choloma, Cortés, Honduras</a></li>
@@ -250,27 +250,15 @@
                     <li><a href="http://www.expofrutahn.com/"><i class="fa fa-globe"></i>http://www.expofrutahn.com/</a></li>
                 </ul>
 
-            	<!-- Business Hours -->
+                <!-- Business Hours -->
                 <div class="headline"><h2>Business Hours</h2></div>
                 <ul class="list-unstyled margin-bottom-30">
-                	<li><strong>Monday-Friday:</strong> 10am to 8pm</li>
-                	<li><strong>Saturday:</strong> 11am to 3pm</li>
-                	<li><strong>Sunday:</strong> Closed</li>
+                    <li><strong>Monday-Friday:</strong> 10am to 8pm</li>
+                    <li><strong>Saturday:</strong> 11am to 3pm</li>
+                    <li><strong>Sunday:</strong> Closed</li>
                 </ul>
             </div><!--/col-md-3-->
         </div><!--/row-->
-
-        <!-- Owl Clients v1 -->
-        <div class="headline"><h2>Our Clients</h2></div>
-        <div class="owl-clients-v1">
-            <div class="item">
-                <img src="img/chiquita.png" alt="">
-            </div>
-            <div class="item">
-                <img src="img/dole.png" alt="">
-            </div>
-        </div>
-        <!-- End Owl Clients v1 -->
     </div><!--/container-->
     <!--=== End Content Part ===-->
 
@@ -341,13 +329,13 @@
     });
 </script>
 <!--[if lt IE 9]>
-    <script src="jsrespond.js"></script>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/placeholder-IE-fixes.js"></script>
-    <script src="js/sky-forms-ie8.js"></script>
+<script src="jsrespond.js"></script>
+<script src="js/html5shiv.js"></script>
+<script src="js/placeholder-IE-fixes.js"></script>
+<script src="js/sky-forms-ie8.js"></script>
 <![endif]-->
 <!--[if lt IE 10]>
-    <script src="js/jquery.placeholder.min.js"></script>
+<script src="js/jquery.placeholder.min.js"></script>
 <![endif]-->
 
 </body>
