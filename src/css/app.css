@@ -1376,6 +1376,62 @@ a.btn-u-xs {
    border-left: solid 1px #59b795;
 }
 
+.btn-u.btn-u-light-custom {
+    background: rgba(216, 219, 52, 1);
+}
+.btn-u.btn-u-light-custom:hover,
+.btn-u.btn-u-light-custom:focus,
+.btn-u.btn-u-light-custom:active,
+.btn-u.btn-u-light-custom.active,
+.open .dropdown-toggle.btn-u.btn-u-light-custom {
+    background: #a6a826;
+}
+.btn-u.btn-u-split-light-custom.dropdown-toggle {
+    border-left: solid 1px #a6a826;
+}
+
+.btn-u.btn-u-light-custom2 {
+    background: rgba(33, 165, 33, 1);
+}
+.btn-u.btn-u-light-custom2:hover,
+.btn-u.btn-u-light-custom2:focus,
+.btn-u.btn-u-light-custom2:active,
+.btn-u.btn-u-light-custom2.active,
+.open .dropdown-toggle.btn-u.btn-u-light-custom2 {
+    background: #177c17;
+}
+.btn-u.btn-u-split-light-custom2.dropdown-toggle {
+    border-left: solid 1px #177c17;
+}
+
+.btn-u.btn-u-light-custom3 {
+    background: rgba(166, 168, 40, 1);
+}
+.btn-u.btn-u-light-custom3:hover,
+.btn-u.btn-u-light-custom3:focus,
+.btn-u.btn-u-light-custom3:active,
+.btn-u.btn-u-light-custom3.active,
+.open .dropdown-toggle.btn-u.btn-u-light-custom3 {
+    background: #7f7f1d;
+}
+.btn-u.btn-u-split-light-custom3.dropdown-toggle {
+    border-left: solid 1px #7f7f1d;
+}
+
+.btn-u.btn-u-light-custom4 {
+    background: rgba(116, 197, 44, 1);
+}
+.btn-u.btn-u-light-custom4:hover,
+.btn-u.btn-u-light-custom4:focus,
+.btn-u.btn-u-light-custom4:active,
+.btn-u.btn-u-light-custom4.active,
+.open .dropdown-toggle.btn-u.btn-u-light-custom4 {
+    background: #5c9b22;
+}
+.btn-u.btn-u-split-light-custom4.dropdown-toggle {
+    border-left: solid 1px #5c9b22;
+}
+
 .btn-u.btn-u-dark {
    background: #555;
 }
